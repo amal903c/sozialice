@@ -1,1 +1,21 @@
-<link rel="stylesheet"href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css"integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK"crossorigin="anonymous" >
+<link rel="stylesheet"href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css"integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK"crossorigin="anonymous" > .splash {
+    border-image: url(img/splash_test.png);
+    width: 100%;
+    height: 100%;
+}
+
+.produkt {
+    background-color: #ffdecd;
+}
+
+.brand {
+    background-color: #cde0ff;
+}
+
+.opskrifter {
+    background-color: #ffdecd;
+}
+
+.social {
+    background-color: #cde0ff;
+}
