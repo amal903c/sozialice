@@ -6,10 +6,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-
-
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css" integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK" crossorigin="anonymous">
+
+    <!-- > Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="style.css">
 
@@ -18,47 +19,121 @@
 
 <body>
 
-    <div class="splash" style="background-color: aqua"></div>
-    <div class="hero">
-        <div class="container">
 
-            <div class="row container-fluid splash">
-                <div class="col-md-12">
-                    <h1>Header text her</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit veniam sapiente, ipsa quidem perspiciatis eos eius nostrum distinctio corporis aut quam numquam animi, consectetur veritatis vel deserunt, temporibus fugiat maxime! </p>
+    <header id="splash" class="px-5 d-flex justify-content-center align-items-center">
+        <div class="splash-text">
+            <h1>Header text her</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit veniam sapiente, ipsa quidem perspiciatis eos eius nostrum distinctio corporis aut quam numquam animi, consectetur veritatis vel deserunt, temporibus fugiat maxime! </p>
+        </div>
+    </header> <!--    Slut header splash -->
 
+
+
+
+    <main class="container-fluid">
+
+
+        <!--
+        <div class="col-md-6 col-lg-6"><img class="img-fluid" src="img/splash_test.png" alt="Produkter"></div>
+        <div class="col-md-6 col-lg-6">
+            <h1>Header text her</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit veniam sapiente, ipsa quidem perspiciatis eos eius nostrum distinctio corporis aut quam numquam animi, consectetur veritatis vel deserunt, temporibus fugiat maxime! </p>
+        </div>
+-->
+
+
+        <section id="produkt" class="row my-5">
+            <div class="produkt1 row">
+                <div class="produkt1_img col-md-6 col-lg-6 p-5 d-flex justify-content-center">
+                    <img class="img-fluid w-50" src="img/bucket.png" alt="Produkt 1">
+                </div>
+                <div class="produkt1_txt col-md-6 col-lg-6 p-5">
+                    <h2>Hasselnød</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti ratione, quibusdam cum ad deserunt excepturi nulla, quaerat voluptatibus iste aut reiciendis quo. Nemo, maiores sed ipsa quidem. Deserunt, labore, debitis!</p>
                 </div>
             </div>
 
-            <div class="row produkt">
-                <div class="col-lg-6"></div>
-                <div class="col-lg-6"></div>
+            <div class="produkt2 row">
+                <div class="produkt2_txt col-md-6 col-lg-6 p-5">
+                    <h2>Hindbær</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti ratione, quibusdam cum ad deserunt excepturi nulla, quaerat voluptatibus iste aut reiciendis quo. Nemo, maiores sed ipsa quidem. Deserunt, labore, debitis!</p>
+                </div>
+                <div class="produkt2_img col-md-6 col-lg-6 p-5 d-flex justify-content-center">
+                    <img class="img-fluid w-50" src="img/bucket.png" alt="Produkt 2">
+                </div>
             </div>
 
-            <div class="row brand">
-                <div class="col-lg-6"></div>
-                <div class="col-lg-6"></div>
+            <div class="produkt3 row">
+                <div class="produkt3_img col-md-6 col-lg-6 p-5 d-flex justify-content-center">
+                    <img class="img-fluid w-50" src="img/bucket.png" alt="Produkt 3">
+                </div>
+                <div class="produkt3_txt col-md-6 col-lg-6 p-5">
+                    <h2>Karamel</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti ratione, quibusdam cum ad deserunt excepturi nulla, quaerat voluptatibus iste aut reiciendis quo. Nemo, maiores sed ipsa quidem. Deserunt, labore, debitis!</p>
+                </div>
+            </div>
+            <div class="produkt4 row">
+                <div class="produkt4_txt col-md-6 col-lg-6 p-5">
+                    <h2>Mango</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti ratione, quibusdam cum ad deserunt excepturi nulla, quaerat voluptatibus iste aut reiciendis quo. Nemo, maiores sed ipsa quidem. Deserunt, labore, debitis!</p>
+                </div>
+                <div class="produkt4_img col-md-6 col-lg-6 p-5 d-flex justify-content-center">
+                    <img class="img-fluid w-50" src="img/bucket.png" alt="Produkt 4">
+                </div>
             </div>
 
-            <div class="row opskrifter">
-                <div class="col-lg-4"></div>
-                <div class="col-lg-4"></div>
-                <div class="col-lg-4"></div>
-            </div>
 
 
-        </div>
-    </div>
+        </section> <!--    Slut section produkt -->
 
-    <!-- Optional JavaScript; choose one of the two! -->
+
+
+
+
+
+
+
+
+
+        <section id="brand" class="row">
+            <div class="col-lg-6"></div>
+            <div class="col-lg-6"></div>
+        </section> <!--    Slut section brand -->
+
+
+
+
+        <section id="opskrifter" class="row">
+            <div class="col-lg-4"></div>
+            <div class="col-lg-4"></div>
+            <div class="col-lg-4"></div>
+        </section><!--    Slut section opskrifter -->
+
+
+
+        <section id="social" class="row">
+
+        </section> <!--    Slut section social -->
+
+
+    </main> <!--    Slut container -->
+
+
+
+
+
+
+
+
+
 
     <!-- Option 1: Bootstrap Bundle with Popper.js -->
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js" integrity="sha384-BOsAfwzjNJHrJ8cZidOg56tcQWfp6y72vEJ8xQ9w6Quywb24iOsW913URv1IS4GD" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js" integrity="sha384-BOsAfwzjNJHrJ8cZidOg56tcQWfp6y72vEJ8xQ9w6Quywb24iOsW913URv1IS4GD" crossorigin="anonymous">
 
-    <!-- Option 2: Separate Popper.js and Bootstrap JS
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.min.js" integrity="sha384-5h4UG+6GOuV9qXh6HqOLwZMY4mnLPraeTrjT5v07o347pj6IkfuoASuGBhfDsp3d" crossorigin="anonymous"></script>
-    -->
+
+    </script>
+
+
 </body>
 
 </html>

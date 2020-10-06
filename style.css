@@ -1,11 +1,30 @@
-<link rel="stylesheet"href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css"integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK"crossorigin="anonymous" > .splash {
-    border-image: url(img/splash_test.png);
-    width: 100%;
-    height: 100%;
+<link rel="stylesheet"href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css"integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK"crossorigin="anonymous" > body {
+    margin: 0;
 }
 
+
+h2 {
+    font-family: 'Shrikhand', cursive;
+}
+
+
+
+#splash {
+    background: url(img/splash_test.png);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+
+#produkt {
+    background-color: #ffe4da;
+}
+
+
+/*
 .produkt {
     background-color: #ffdecd;
+
 }
 
 .brand {
@@ -19,3 +38,4 @@
 .social {
     background-color: #cde0ff;
 }
+*/
