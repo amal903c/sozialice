@@ -7,7 +7,19 @@ h2 {
     font-family: 'Shrikhand', cursive;
 }
 
+p {
+    font-family: muli, sans-serif;
 
+    font-weight: 400;
+
+    font-style: normal;
+}
+
+
+
+
+
+/*SPLASH*/
 
 #splash {
     background: url(img/splash_test.png);
@@ -16,9 +28,70 @@ h2 {
     height: 100vh;
 }
 
+
+
+
+
+
+
+/*PRODUKT*/
 #produkt {
-    background-color: #ffe4da;
+    background-color: #ffdba48f;
 }
+
+
+.produkt1_txt p,
+.produkt1_txt h2 {
+    color: #DCB673;
+}
+
+
+.produkt2_txt {
+    padding-top: 0;
+}
+
+
+
+
+
+/*PHRASE*/
+
+#phrase {
+    background-color: #fbc0ba;
+    color: #314ab3;
+}
+
+#phrase h2 {
+    font-family: 'Shrikhand', cursive;
+    font-size: calc(30px + 15 * ((100vw - 320px) / 680));
+}
+
+
+
+
+
+/* BRAND */
+
+
+#brand {
+    background-color: #bbd4d4;
+    color: #314ab3;
+}
+
+#brand h2 {
+    font-family: muli, sans-serif;
+}
+
+
+
+
+
+
+/* Forhandler */
+
+
+
+
 
 
 /*
