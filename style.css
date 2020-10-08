@@ -7,6 +7,14 @@ h2 {
     font-family: 'Shrikhand', cursive;
 }
 
+h3 {
+    font-family: muli, sans-serif;
+
+    font-weight: 400;
+
+    font-style: normal;
+}
+
 p {
     font-family: muli, sans-serif;
 
@@ -36,7 +44,7 @@ p {
 
 /*PRODUKT*/
 #produkt {
-    background-color: #ffdba48f;
+    background-color: #fff5e4;
 }
 
 
@@ -74,7 +82,7 @@ p {
 
 
 #brand {
-    background-color: #bbd4d4;
+    background-color: #e4ebeb;
     color: #314ab3;
 }
 
@@ -87,7 +95,36 @@ p {
 
 
 
-/* Forhandler */
+
+/* OPSKRIFTER */
+
+#opskrifter {
+    background-color: #faedec;
+}
+
+#opskrifter h2 {
+    color: #314ab3;
+}
+
+#opskrifter h3 {
+    font-size: calc(17px - 1 * ((100vw - 320px) / 680));
+    color: #314ab3;
+}
+
+.opskrift:hover {
+    opacity: 0.5;
+}
+
+
+
+
+
+/* SOCIAL */
+
+
+#social p {
+    font-size: 1.4rem;
+}
 
 
 
