@@ -55,7 +55,7 @@ nav {
 
 nav ul {
     list-style: none;
-    -webkit-transform: rotate(-90deg) translateX(-37vh);
+    -webkit-transform: rotate(-90deg) translateX(-30vh);
 }
 
 nav a {
@@ -92,23 +92,75 @@ nav a {
 
 
 
+/* Produkt farver baggrund:
+
+Hasselnød: #fff5e4
+Hindbær: #fdeff3
+Karamel: #f5e2d0
+Mango: #fff8de
+
+*/
+
 
 
 
 /*PRODUKT*/
-#produkt {
+.produkt1 {
     background-color: #fff5e4;
 }
 
-
-.produkt1_txt p,
 .produkt1_txt h2 {
-    color: #DCB673;
+    color: #314ab3;
 }
 
+.produkt1_txt p {
+    color: #ceb891;
+}
 
 .produkt2_txt {
     padding-top: 0;
+}
+
+
+.produkt2 {
+    background-color: #fdeff3;
+}
+
+.produkt2_txt h2 {
+    color: #314ab3;
+}
+
+.produkt2_txt p {
+    color: #dab1bd;
+}
+
+
+
+.produkt3 {
+    background-color: #f5e2d0;
+}
+
+.produkt3_txt h2 {
+    color: #314ab3;
+}
+
+.produkt3_txt p {
+    color: #dab797;
+}
+
+
+
+
+.produkt4 {
+    background-color: #fff8de;
+}
+
+.produkt4_txt h2 {
+    color: #314ab3;
+}
+
+.produkt4_txt p {
+    color: #e0ce88;
 }
 
 
@@ -164,9 +216,57 @@ nav a {
     color: #314ab3;
 }
 
+
+
+.middle {
+    position: absolute;
+/*    display: none;*/
+}
+
+.opskrift:hover img {
+    opacity: 0.3;
+    transition: .5s ease;
+}
+
+
+.opskrift:hover .middle {
+    display: block;
+    opacity: 1;
+}
+
+
+
+/*
 .opskrift:hover {
     opacity: 0.5;
 }
+*/
+
+
+
+
+
+/*
+
+#opskrifter img {
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+
+
+.opskrift:hover .image {
+    opacity: 0.3;
+}
+
+.opskrift:hover .middle {
+    opacity: 1;
+}
+
+*/
+
+
 
 
 
