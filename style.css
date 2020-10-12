@@ -82,12 +82,18 @@ nav a {
 
 /*SPLASH*/
 
+.splash-text {
+    position: absolute;
+}
+
+/*
 #splash {
     background: url(img/splash_test.png);
     background-size: cover;
     background-position: center center;
     height: 100vh;
 }
+*/
 
 
 
@@ -117,17 +123,23 @@ Mango: #fff8de
     color: #ceb891;
 }
 
-.produkt2_txt {
-    padding-top: 0;
-}
 
 
 .produkt2 {
+    background-color: #fff5e4;
+}
+
+.active2 {
     background-color: #fdeff3;
+    transition: ease 1s;
 }
 
 .produkt2_txt h2 {
     color: #314ab3;
+}
+
+.produkt2_txt {
+    padding-top: 0;
 }
 
 .produkt2_txt p {
@@ -220,7 +232,7 @@ Mango: #fff8de
 
 .middle {
     position: absolute;
-/*    display: none;*/
+    /*    display: none;*/
 }
 
 .opskrift:hover img {
