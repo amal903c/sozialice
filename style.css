@@ -1,26 +1,26 @@
 <link rel="stylesheet"href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css"integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK"crossorigin="anonymous" > body {
-    margin: 0;
+  margin: 0;
 }
 
 
 h2 {
-    font-family: 'Shrikhand', cursive;
+  font-family: 'Shrikhand', cursive;
 }
 
 h3 {
-    font-family: muli, sans-serif;
+  font-family: muli, sans-serif;
 
-    font-weight: 400;
+  font-weight: 400;
 
-    font-style: normal;
+  font-style: normal;
 }
 
 p {
-    font-family: muli, sans-serif;
+  font-family: muli, sans-serif;
 
-    font-weight: 400;
+  font-weight: 400;
 
-    font-style: normal;
+  font-style: normal;
 }
 
 
@@ -30,50 +30,50 @@ p {
 /* MENU */
 
 nav {
-    z-index: 1000;
-    top: 0;
-    bottom: 0;
-    width: 100px;
-    background-color: #ffbf59;
-    transform: translate3d(-100px, 0, 0);
-    transition: transform 0.4s ease;
+  z-index: 1000;
+  top: 0;
+  bottom: 0;
+  width: 100px;
+  background-color: #ffbf59;
+  transform: translate3d(-100px, 0, 0);
+  transition: transform 0.4s ease;
 }
 
 .nav-toggle-btn {
-    position: absolute;
-    left: 110px;
-    top: 10px;
-    width: 40px;
-    height: 40px;
-    background-image: url(img/burger.svg);
-    background-size: cover;
+  position: absolute;
+  left: 110px;
+  top: 10px;
+  width: 40px;
+  height: 40px;
+  background-image: url(img/burger.svg);
+  background-size: cover;
 }
 
 .active-nav nav {
-    transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
 }
 
 nav ul {
-    list-style: none;
-    -webkit-transform: rotate(-90deg) translateX(-30vh);
+  list-style: none;
+  -webkit-transform: rotate(-90deg) translateX(-30vh);
 }
 
 nav a {
-    text-decoration: none;
-    color: #fff;
-    padding: 10px 10px;
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 10px;
 }
 
 
 
 .content {
-    transition: transform 0.41s ease;
-    /*    Det her gør at når content rykker sig er det smooth*/
+  transition: transform 0.41s ease;
+  /*    Det her gør at når content rykker sig er det smooth*/
 }
 
 .active-nav .content {
-    transform: translate3d(100px, 0, 0);
-    /*    Det her gør at alt content på siden rykker sig når nav bliver klikket*/
+  transform: translate3d(100px, 0, 0);
+  /*    Det her gør at alt content på siden rykker sig når nav bliver klikket*/
 }
 
 
@@ -83,7 +83,7 @@ nav a {
 /*SPLASH*/
 
 .splash-text {
-    position: absolute;
+  position: absolute;
 }
 
 /*
@@ -112,67 +112,65 @@ Mango: #fff8de
 
 /*PRODUKT*/
 .produkt1 {
-    background-color: #fff5e4;
+  background-color: #fff5e4;
 }
 
 .produkt1_txt h2 {
-    color: #314ab3;
+  color: #314ab3;
 }
 
 .produkt1_txt p {
-    color: #ceb891;
+  color: #ceb891;
 }
 
-
-
 .produkt2 {
-    background-color: #fff5e4;
+  background-color: #fff5e4;
 }
 
 .active2 {
-    background-color: #fdeff3;
-    transition: ease 1s;
+  background-color: #fdeff3;
+  transition: ease 1s;
 }
 
 .produkt2_txt h2 {
-    color: #314ab3;
+  color: #314ab3;
 }
 
 .produkt2_txt {
-    padding-top: 0;
+  padding-top: 0;
 }
 
 .produkt2_txt p {
-    color: #dab1bd;
+  color: #dab1bd;
 }
 
 
 
 .produkt3 {
-    background-color: #f5e2d0;
+  background-color: #f5e2d0;
 }
 
 .produkt3_txt h2 {
-    color: #314ab3;
+  color: #314ab3;
 }
 
 .produkt3_txt p {
-    color: #dab797;
+  color: #dab797;
 }
 
 
 
 
 .produkt4 {
-    background-color: #fff8de;
+  background-color: #fff8de;
 }
 
 .produkt4_txt h2 {
-    color: #314ab3;
+  color: #314ab3;
 }
 
 .produkt4_txt p {
-    color: #e0ce88;
+  color: #e0ce88;
 }
 
 
@@ -182,13 +180,13 @@ Mango: #fff8de
 /*PHRASE*/
 
 #phrase {
-    background-color: #fbc0ba;
-    color: #314ab3;
+  background-color: #fbc0ba;
+  color: #314ab3;
 }
 
 #phrase h2 {
-    font-family: 'Shrikhand', cursive;
-    font-size: calc(30px + 15 * ((100vw - 320px) / 680));
+  font-family: 'Shrikhand', cursive;
+  font-size: calc(30px + 15 * ((100vw - 320px) / 680));
 }
 
 
@@ -199,12 +197,12 @@ Mango: #fff8de
 
 
 #brand {
-    background-color: #e4ebeb;
-    color: #314ab3;
+  background-color: #e4ebeb;
+  color: #314ab3;
 }
 
 #brand h2 {
-    font-family: muli, sans-serif;
+  font-family: muli, sans-serif;
 }
 
 
@@ -216,34 +214,34 @@ Mango: #fff8de
 /* OPSKRIFTER */
 
 #opskrifter {
-    background-color: #faedec;
+  background-color: #faedec;
 }
 
 #opskrifter h2 {
-    color: #314ab3;
+  color: #314ab3;
 }
 
 #opskrifter h3 {
-    font-size: calc(17px - 1 * ((100vw - 320px) / 680));
-    color: #314ab3;
+  font-size: calc(17px - 1 * ((100vw - 320px) / 680));
+  color: #314ab3;
 }
 
 
 
 .middle {
-    position: absolute;
-    /*    display: none;*/
+  position: absolute;
+  /*    display: none;*/
 }
 
 .opskrift:hover img {
-    opacity: 0.3;
-    transition: .5s ease;
+  opacity: 0.3;
+  transition: .5s ease;
 }
 
 
 .opskrift:hover .middle {
-    display: block;
-    opacity: 1;
+  display: block;
+  opacity: 1;
 }
 
 
@@ -288,18 +286,18 @@ Mango: #fff8de
 
 
 #social p {
-    font-size: 1.4rem;
+  font-size: 1.4rem;
 }
 
 
 /* FOOTER */
 
 footer {
-    background-color: #e0e0e0;
+  background-color: #e0e0e0;
 }
 
 footer p {
-    font-size: 0.8rem;
+  font-size: 0.8rem;
 }
 
 
@@ -325,3 +323,7 @@ footer p {
     background-color: #cde0ff;
 }
 */
+
+.product-2-trigger {
+  border: 10px solid red;
+}
