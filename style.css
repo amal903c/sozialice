@@ -39,6 +39,13 @@ nav {
     transition: transform 0.4s ease;
 }
 
+nav button {
+    background-color: #263390;
+    border-style: none;
+    border-radius: 50%;
+
+}
+
 .nav-toggle-btn {
     position: absolute;
     left: 110px;
@@ -55,16 +62,30 @@ nav {
 
 nav ul {
     list-style: none;
-    -webkit-transform: rotate(-90deg) translateX(-30vh);
+    transform: rotate(-90deg) translateX(-37vh);
 }
 
 nav a {
     text-decoration: none;
     color: #fff;
     padding: 10px 10px;
+    width: 20vw
 }
 
 
+.nav-20 {
+    transform: translateX(1%);
+    transition: ease-in-out;
+}
+
+.content-80 {
+    transform: translateX(5%);
+    transition: ease-in-out;
+}
+
+.nav-toggle-btn-80 {
+    background-image: url(img/cross.svg);
+}
 
 .content {
     transition: transform 0.41s ease;
@@ -75,7 +96,6 @@ nav a {
     transform: translate3d(100px, 0, 0);
     /*    Det her gør at alt content på siden rykker sig når nav bliver klikket*/
 }
-
 
 
 
