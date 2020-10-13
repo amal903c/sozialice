@@ -55,3 +55,11 @@ ScrollTrigger.create({
         className: "produkt4",
     }
 });
+
+
+
+
+
+var rellax = new Rellax(".rellax", {
+    center: true,
+});

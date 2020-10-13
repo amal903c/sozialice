@@ -82,7 +82,7 @@ nav a {
 
 .nav-20 {
     transform: translateX(0%);
-    transition: ease-in-out;
+    transition: ease 1s;
 }
 
 /*
@@ -220,6 +220,17 @@ nav a {
 
 
 
+/* TAG OS */
+
+.img_bottom {
+    margin-top: -50px;
+    padding-left: 10px;
+    padding-right: 0;
+}
+
+
+
+
 
 
 /* BRAND */
@@ -350,23 +361,3 @@ footer p {
 
 
 }
-
-
-/*
-.produkt {
-    background-color: #ffdecd;
-
-}
-
-.brand {
-    background-color: #cde0ff;
-}
-
-.opskrifter {
-    background-color: #ffdecd;
-}
-
-.social {
-    background-color: #cde0ff;
-}
-*/
