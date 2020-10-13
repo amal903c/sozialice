@@ -1,4 +1,3 @@
-const elContent = document.querySelector('.content');
 const elNav = document.querySelector('nav');
 const elBtn = document.querySelector('button');
 navToggleBtn = document.querySelector('.nav-toggle-btn');
@@ -6,7 +5,7 @@ navToggleBtn.addEventListener('click', toggleMenu);
 
 function toggleMenu() {
     elNav.classList.toggle("nav-20");
-    elContent.classList.toggle("content-80");
+
     elBtn.classList.toggle("nav-toggle-btn-80");
 }
 
