@@ -100,19 +100,24 @@ nav a {
 
 #indledning h1 {
     font-family: muli, sans-serif;
-    color: #314ab3;
     font-style: italic;
-    line-height: 3.4rem;
+    line-height: 4.4rem;
 
     text-align: center;
 }
 
+.alkohol {
+    color: #314ab3;
+    font-size: 6rem;
+}
+
+.isen {
+    color: #c27766;
+    font-size: 2.5rem;
+}
 
 
-
-
-
-
+#c27766
 /*PRODUKT*/
 
 
