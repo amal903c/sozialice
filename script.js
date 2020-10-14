@@ -74,6 +74,6 @@ var rellax = new Rellax(".rellax", {
     center: true,
 });
 
-function Rellax() {
-
-}
+//function Rellax() {
+//    console.log("hej")
+//}

@@ -34,7 +34,7 @@ nav {
     top: 0;
     bottom: 0;
     width: 100%;
-    background-color: #c27766;
+    background-color: #e88d6d;
     transform: translateX(-100%);
     transition: transform 0.4s ease-out;
 }
@@ -236,6 +236,10 @@ nav a {
 
 .img3 {
     margin-top: -13vw;
+}
+
+.img4 {
+    margin-top: -3vw;
 }
 
 .img5 {
