@@ -82,32 +82,10 @@ nav a {
 
 .nav-20 {
     transform: translateX(0%);
-    transition: ease-in-out;
+    transition: ease 1s;
 }
 
-/*
-.content-80 {
-    transform: translateX(5%);
-    transition: ease-in-out;
-}
-*/
 
-
-
-/*
-
-.content {
-    transition: transform 0.41s ease;
-        Det her gør at når content rykker sig er det smooth
-}
-*/
-
-/*
-.active-nav .content {
-    transform: translate3d(100px, 0, 0);
-    Det her gør at alt content på siden rykker sig når nav bliver klikket
-}
-*/
 
 
 
@@ -124,11 +102,6 @@ nav a {
 
 /* INDLEDNING */
 
-/*
-.indledning_tekst {
-    background-color: #fff5e4;
-}
-*/
 
 #indledning h1 {
     font-family: muli, sans-serif;
@@ -140,22 +113,46 @@ nav a {
 
 .alkohol {
     color: #314ab3;
-    font-size: 6rem;
+    font-size: 3rem;
 }
+
+
 
 .isen {
     color: #c27766;
-    font-size: 2.5rem;
+    ;
+    font-size: 1.7rem;
 }
 
 
-#c27766
+@media screen and (min-width: 768px) {
+    .alkohol {
+        font-size: 4.5rem;
+    }
+
+    .isen {
+        font-size: 2.5rem;
+    }
+}
+
+
+/*#c27766*/
+
+
+
+
+
 /*PRODUKT*/
+
+#produkt p {
+    font-size: 1.1rem;
+}
 
 
 
 .produkt1 {
     background-color: #fff5e4;
+    transition: ease 1s;
 }
 
 .produkt1_txt h2 {
@@ -169,7 +166,7 @@ nav a {
 
 
 .produkt2 {
-    background-color: #fdeff3;
+    background-color: #f3e4ed;
     transition: ease 1s;
     /*    background-color: #fff5e4;*/
 }
@@ -189,7 +186,7 @@ nav a {
 
 
 .produkt3 {
-    background-color: #f5e2d0;
+    background-color: #fff5e4;
     transition: ease 1s;
 }
 
@@ -198,14 +195,14 @@ nav a {
 }
 
 .produkt3_txt p {
-    color: #dab797;
+    color: #be8b57;
 }
 
 
 
 
 .produkt4 {
-    background-color: #fdeff3;
+    background-color: #f3e4ed;
     transition: ease 1s;
 }
 
@@ -214,8 +211,38 @@ nav a {
 }
 
 .produkt4_txt p {
-    color: #ebc173;
+    color: #a65375;
 }
+
+
+
+
+/* TAG OS */
+
+.video {
+    background-attachment: fixed;
+    z-index: -2;
+}
+
+.sozialice_txt {
+    font-size: 3.5rem;
+    color: #314ab3;
+}
+
+.tag_os_txt {
+    font-size: 1.4rem;
+    color: #314ab3;
+}
+
+.img3 {
+    margin-top: -13vw;
+}
+
+.img5 {
+    margin-top: -3vw;
+}
+
+
 
 
 
@@ -226,7 +253,7 @@ nav a {
 
 
 #brand {
-
+    background-color: #fff5e4;
     color: #314ab3;
 }
 
@@ -240,7 +267,20 @@ nav a {
 
 
 
-/* OPSKRIFTER */
+
+
+/* SHARING */
+
+.share_img h2 {
+    color: #314ab3;
+}
+
+.share_img p {
+    color: #314ab3;
+}
+
+
+
 
 #opskrifter {
     background-color: #faedec;
@@ -350,23 +390,3 @@ footer p {
 
 
 }
-
-
-/*
-.produkt {
-    background-color: #ffdecd;
-
-}
-
-.brand {
-    background-color: #cde0ff;
-}
-
-.opskrifter {
-    background-color: #ffdecd;
-}
-
-.social {
-    background-color: #cde0ff;
-}
-*/

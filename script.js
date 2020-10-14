@@ -25,6 +25,17 @@ function toggleMenu() {
 gsap.registerPlugin(ScrollTrigger);
 
 ScrollTrigger.create({
+    trigger: ".product-1-trigger",
+    start: "top center",
+    //    end: "bottom center",
+    toggleClass: {
+        targets: "#produkt",
+        className: "produkt1",
+    },
+});
+
+
+ScrollTrigger.create({
     trigger: ".product-2-trigger",
     start: "top center",
     //    end: "bottom center",
@@ -55,3 +66,14 @@ ScrollTrigger.create({
         className: "produkt4",
     }
 });
+
+
+
+
+var rellax = new Rellax(".rellax", {
+    center: true,
+});
+
+function Rellax() {
+
+}
