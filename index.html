@@ -70,19 +70,19 @@
         <main class="container-fluid p-0">
 
             <section id="indledning">
-                <div class="indledning_tekst px-5 p-md-5 mt-5 my-md-4">
-                    <h1 class="alkohol"> 8% alkohol </h1>
+                <div class="indledning_tekst px-5 p-md-5 my-5 my-md-4">
+                    <h1 class="alkohol mb-3 mb-md-5"> 8% alkohol </h1>
                     <h1 class="isen"> Isen der gør det hele lidt sjovere </h1>
                 </div>
 
-            </section>
+            </section> <!--    Slut section indledning -->
 
 
             <section id="produkt" class="row produkt">
 
                 <div class="row m-0 product-1-trigger">
                     <div class="produkt1_img col-md-6 col-lg-6 pt-5 pb-3 py-md-5 py-lg-5 d-flex justify-content-center">
-                        <img class="rellax img-fluid w-75" src="img/hasseln%C3%B8d.png" alt="Hasselnød is">
+                        <img class="img-fluid w-75" src="img/hasseln%C3%B8d.png" alt="Hasselnød is">
                     </div>
                     <div class="produkt1_txt col-md-6 col-lg-6 p-md-5 p-lg-5 d-flex flex-wrap align-content-center">
                         <h2 class="px-lg-5">Hasselnød</h2>
@@ -99,6 +99,8 @@
                         <p class="px-lg-5">Skøn sorbetis med den friske smag af hindbær. Isen er toppet med sprødt hindbær knas og selvfølgelig 8% alkohol. Så bliver din aften bare lige lidt bedre. </p>
                     </div>
                 </div>
+
+
 
                 <div class="row m-0 product-3-trigger">
                     <div class="produkt3_img col-md-6 col-lg-6 pt-5 pb-3 p-md-5 p-lg-5 d-flex justify-content-center">
@@ -124,16 +126,8 @@
 
 
 
-            <section id="shake" class="row d-flex flex-wrap justify-content-center py-5 my-4">
-                <div class="share_img col-md-6">
-                    <h2 class="d-flex justify-content-center m-0 pb-1">Sharing is caring</h2>
-                    <p class="d-flex justify-content-center pb-3">SOZIALICE som shake</p>
-                    <img class=" img-fluid" src="img/share.jpg" alt="Milkshake">
-                </div>
-            </section> <!--            Slut section SHAKE-->
-
             <section id="infografik" class="row d-flex flex-wrap justify-content-center py-5 my-4">
-                <div class="share_img col-md-6">
+                <div class="share_img col-md-6 px-5 px-md-0 rellax" data-rellax-speed="1.2">
 
                     <img class=" img-fluid" src="img/infografik.png" alt="inforgrafik">
                 </div>
@@ -142,10 +136,27 @@
 
 
 
+            <section id="shake" class="row d-flex flex-wrap justify-content-center py-5 my-4">
+                <div class="share_img col-md-6">
+                    <img class=" img-fluid" src="img/share.jpg" alt="Milkshake">
+                </div>
+                <div class=" shake_txt">
+                    <h2 class="d-flex justify-content-center m-0 pb-1">Sharing is caring</h2>
+                    <p class="d-flex justify-content-center pb-3">SOZIALICE som shake</p>
+                </div>
+            </section> <!--            Slut section SHAKE-->
+
+
+
+
+
+
+
+
 
             <section id="brand" class="row my-2">
                 <div class="row m-0 d-flex flex-wrap justify-content-center">
-                    <div class=" brand_txt col-md-8 col-lg-5 p-4 p-md-5 p-lg-5 d-flex flex-wrap justify-content-center">
+                    <div class=" brand_txt col-md-6 col-lg-6 p-4 p-md-5 p-lg-5 d-flex flex-wrap justify-content-center">
                         <h2 class="px-md-3 px-lg-3 pb-3">Lidt om SOZIALICE</h2>
                         <p class="px-md-3 px-lg-3">Vi elsker dessert. Og vi elsker alkohol. Så hvorfor ikke kombinere de to ting vi elsker allermest?
                             <br>
@@ -166,14 +177,20 @@
 
 
 
-            <section id="fest" class="row">
-                <div>
-                    <h2>Gør hver dag til en fest</h2>
-                    <video class="video" width="100%" autoplay muted loop>
+            <section id="fest" class="row my-5 d-flex flex-wrap justify-content-center">
+                <div class=" col-12 col-lg-8 ">
+                    <video class="fest_video" width="100%" autoplay muted loop>
                         <source src="img/fest.mp4" type="video/mp4">
                     </video>
                 </div>
-            </section>
+                <div class="col-12 d-flex flex-wrap justify-content-center rellax" data-rellax-speed="1">
+                    <h2 class="fest_h2">Gør hver dag til en fest</h2>
+                </div>
+            </section> <!--            Slut section FEST-->
+
+
+
+
 
 
 
@@ -181,15 +198,14 @@
 
 
             <section id="tag_os" class="row py-4 py-lg-5">
-                <div class="tag_txt m-0 col-lg-6 d-flex flex-wrap align-content-center justify-content-center">
+                <div class="tag_txt mb-5 mb-md-0 col-md-6 d-flex flex-wrap align-content-center justify-content-center">
                     <p class="sozialice_txt">#SOZIALICE</p>
-
-                    <p class="tag_os_txt">Husk at tagge os og del din sjove oplevelse!</p>
+                    <p class="tag_os_txt ">Husk at tagge os og del din sjove oplevelse!</p>
                 </div>
 
 
 
-                <div class="tag_img col-lg-6 row">
+                <div class="tag_img col-md-6 row p-5">
                     <div class="row d-flex justify-content-end">
                         <div class="col-6 rellax" data-rellax-speed="1">
                             <img class="img1 img-fluid" src="img/collage10.jpg" alt="Instagram billede">
@@ -202,13 +218,16 @@
                         <div class="col-4 rellax" data-rellax-speed="1.4">
                             <img class="img3 img-fluid" src="img/collage3.jpg" alt="Instagram billede">
                         </div>
-                        <div class="col-6 rellax" data-rellax-speed="2.5">
+                        <div class="col-6 rellax" data-rellax-speed="2.6">
                             <img class="img4 img-fluid" src="img/collage4.jpg" alt="Instagram billede">
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-6 rellax" data-rellax-speed="3">
+                        <div class="col-6 rellax" data-rellax-speed="2">
                             <img class="img5 img-fluid" src="img/collage5.jpg" alt="Instagram billede">
+                        </div>
+                        <div class="col-6 rellax" data-rellax-speed="3">
+                            <img class="img6 img-fluid" src="img/collage13.jpeg" alt="Instgram billede">
                         </div>
                     </div>
 
@@ -223,82 +242,24 @@
 
 
 
-
-
-            <!--
-            <section id="opskrifter" class="row d-flex justify-content-around py-5">
-                <h2 class="d-flex justify-content-center">psst... prøv også som shake</h2>
-
-                <div class="opskrift1 opskrift col-md-5 col-lg-2 pt-5 pb-3 d-flex justify-content-center">
-                    <img src="img/milkshake1.png" alt="Hasselnød shake" class="img-fluid">
-                    <div class="middle">
-                        <h3>Hasselnød / choko shake</h3>
-                    </div>
-                </div>
-
-                <div class="opskrift2 opskrift col-md-5 col-lg-2 pt-5 pb-3 d-flex justify-content-center">
-                    <img class="img-fluid" src="img/hindb%C3%A6r_shake.png" alt="Milkshake 2">
-                    <div class="middle">
-                        <h3>Hindbær / blåbær shake</h3>
-                    </div>
-                </div>
-
-                <div class="opskrift3 opskrift col-md-5 col-lg-2 pt-5 pb-3 d-flex justify-content-center">
-                    <img class="img-fluid" src="img/mangomilk.png" alt="Milkshake 3">
-                    <div class="middle">
-                        <h3>Mango / banan shake</h3>
-                    </div>
-                </div>
-
-                <div class="opskrift4 opskrift col-md-5 col-lg-2 pt-5 pb-3 d-flex justify-content-center">
-                    <img class="img-fluid" src="img/milkahake%202.png" alt="Karamel og vanilje milkshake">
-                    <div class="middle">
-                        <h3>Karamel / vanilje shake</h3>
-                    </div>
-                </div>
-            </section>    Slut section opskrifter
--->
+<!--
+<div class="d-flex justify-content-center">
+    <div class="logo-insta px-2">
+        <a href="https://www.facebook.com/Sozialice/">
+            <img class="img-fluid" src="img/facebook.png" alt="Facebook logo">
+        </a>
+    </div>
+    <div class="logo-face mb-5 px-2">
+        <a href="https://www.instagram.com/sozialice/?hl=da">
+            <img class="img-fluid" src="img/insta.png" alt="Instgram logo">
+        </a>
+    </div>
+</div>-->
 
 
 
 
 
-
-
-
-            <section id="social" class="row mx-md-5 px-md-5">
-                <h2 class="text-center mt-5 mb-4">LET'S <br>#SOZIALICE</h2>
-                <div class="social_img w-25 col-md-6 col-lg-6">
-                    <img class="img-fluid p-1 py-md-5" src="img/insta_sk%C3%A5l.png" alt="Instagram post">
-                </div>
-                <div class="social_img w-25 col-md-6 col-lg-6">
-                    <img class="img-fluid p-1 py-md-5" src="img/insta_girls.png" alt="Instagram post">
-                </div>
-                <div class="social_img w-25 col-md-6 col-lg-6">
-                    <img class="img-fluid p-1 py-md-5" src="img/insta3.png" alt="Instagram post">
-                </div>
-                <div class="social_img w-25 col-md-6 col-lg-6">
-                    <img class="img-fluid p-1 py-md-5" src="img/insta1.png" alt="Instagram post">
-                </div>
-
-                <p class="text-center pt-4 pt-md-0">Følg med på de sociale medier</p>
-                <div class="d-flex justify-content-center">
-                    <div class="logo-insta px-2">
-                        <a href="https://www.facebook.com/Sozialice/">
-                            <img class="img-fluid" src="img/Facebook-Logo.png" alt="Facebook logo">
-                        </a>
-                    </div>
-                    <div class="logo-face mb-5 px-2">
-                        <a href="https://www.instagram.com/sozialice/?hl=da">
-                            <img class="img-fluid" src="img/insta.png" alt="Instgram logo">
-                        </a>
-                    </div>
-                </div>
-
-
-
-
-            </section> <!--    Slut section social -->
 
 
             <footer class="m-0">
