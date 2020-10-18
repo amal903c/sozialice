@@ -173,6 +173,16 @@ nav a {
     color: #a67260;
 }
 
+.produkt_img {
+    display: -webkit-flex;
+    /* Safari */
+    -webkit-align-items: center;
+    /* safari */
+    -webkit-justify-content: center;
+    /* safari */
+    display: -ms-flexbox;
+}
+
 
 
 .produkt2 {
@@ -251,6 +261,16 @@ nav a {
     font-family: muli, sans-serif;
 }
 
+.brand_img {
+    display: -webkit-flex;
+    /* Safari */
+    -webkit-align-items: center;
+    /* safari */
+    -webkit-justify-content: center;
+    /* safari */
+    display: -ms-flexbox;
+}
+
 
 
 
@@ -307,4 +327,5 @@ footer {
 
 footer p {
     font-size: 0.8rem;
+    color: white;
 }
